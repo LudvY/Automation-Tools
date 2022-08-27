@@ -21,6 +21,8 @@ echo -e "\n [+] Insalling Linkfinder: "
 git clone https://github.com/GerbenJavado/LinkFinder.git ; cd LinkFinder ; python setup.py install
 echo -e "\n [+] Insalling SecretFinder: "
 git clone https://github.com/m4ll0k/SecretFinder.git secretfinder ; cd secretfinder ; pip install -r requirements.txt
+echo -e "\n [+] Insalling getJS: "
+go install github.com/003random/getJS@latest
 echo -e "\n --------------------------Done Installing required Tools for any error try to install them manually ------------------------------------"
 
 
