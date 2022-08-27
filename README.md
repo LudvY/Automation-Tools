@@ -34,7 +34,7 @@ git clone https://github.com/LudvY/Automation-Tools.git ; cd Automation-Tools/ ;
        # example: 
 `bash secretfinder.sh myjavascripts.txt`
 
-  # Aliases for Bash Profile :
+  # Aliases for Bash Profile {Optionnel}:
 ```
 enum(){
  bash ~/tools/enum-subdomains.sh $1
